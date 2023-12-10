@@ -1,4 +1,2 @@
-
 add_library(lista2 SHARED lista.c)
-
-install(TARGETS lista2 DESTINATION ${BINARY_DIR})
+set_target_properties(lista2 PROPERTIES LIBRARY_OUTPUT_DIRECTORY ${CMAKE_RUNTIME_OUTPUT_DIRECTORY})

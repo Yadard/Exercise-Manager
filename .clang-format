@@ -8,6 +8,7 @@ AlignConsecutiveMacros: None
 AlignConsecutiveAssignments: None
 AlignConsecutiveBitFields: None
 AlignConsecutiveDeclarations: None
+ColumnLimit: 120
 AlignEscapedNewlines: Right
 AlignOperands:   Align
 AlignTrailingComments: true
